@@ -1,0 +1,17 @@
+# YouTube Video Sharing Extension
+
+The purpose of this Chrome Extension is to share YouTube videos with your friends.
+
+This project is being architected by [Anish Kondepudi](https://github.com/anish-kondepudi), Jai Malegaonkar](https://https://github.com/JMalegaonkar), and Krish Dandiwala](https://https://github.com/kdandiwala).
+
+Below are the languages and frameworks used in creating this extension:
+
+```bash
+1. JavaScript
+2. HTML
+3. CSS
+```
+
+Shown below is the final product of the YouTube Chrome Extension:
+
+![Image](README_metadata/final_product.png)

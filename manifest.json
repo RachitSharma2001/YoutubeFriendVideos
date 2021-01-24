@@ -1,0 +1,23 @@
+{
+	"manifest_version": 2,
+	"name": "YouTube Sharing Extension",
+	"version": "0.0.0.1",
+	"description": "An Extension to share YouTube videos with friends!",
+	"content_scripts":
+	[{
+      "matches": ["https://www.youtube.com/*"],
+      "js": ["contents.js"]
+    }],
+	"icons":
+	{
+		"128": "youtube_logo128.png",
+		"48": "youtube_logo48.png",
+		"16": "youtube_logo16.png"
+	},
+	"browser_action":
+	{
+		"default_icon": "youtube_logo.png",
+		"default_popup": "popup.html",
+		"default_title": "YouTube Sharing Extension"
+	}
+}
